@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-09T18:26:52 IST" name="Default suite" finished-at="2026-02-09T18:27:23 IST" duration-ms="30994">
+    <groups>
+    </groups>
+    <test started-at="2026-02-09T18:26:52 IST" name="Default test" finished-at="2026-02-09T18:27:23 IST" duration-ms="30994">
+      <class name="testCases.Tc3_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Tc3_LoginDDT@5b239d7d]" started-at="2026-02-09T18:26:52 IST" name="setup" finished-at="2026-02-09T18:26:55 IST" duration-ms="2703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Tc3_LoginDDT@5b239d7d]" started-at="2026-02-09T18:26:56 IST" name="loginDDT" data-provider="Login" finished-at="2026-02-09T18:26:58 IST" duration-ms="2063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joyroy456@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joy123@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Tc3_LoginDDT@5b239d7d]" started-at="2026-02-09T18:26:58 IST" name="loginDDT" data-provider="Login" finished-at="2026-02-09T18:27:09 IST" duration-ms="11337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[joy123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Tc3_LoginDDT@5b239d7d]" started-at="2026-02-09T18:27:09 IST" name="loginDDT" data-provider="Login" finished-at="2026-02-09T18:27:20 IST" duration-ms="10481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[roy123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@45678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:testCases.Tc3_LoginDDT@5b239d7d]" started-at="2026-02-09T18:27:20 IST" name="closing" finished-at="2026-02-09T18:27:23 IST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- testCases.Tc3_LoginDDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
